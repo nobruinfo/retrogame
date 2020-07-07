@@ -10,7 +10,7 @@ Work in progress! &bull; I will add some photos soon.
 
 As discussed in https://www.lemon64.com/forum/viewtopic.php?t=55650 and
 https://www.lemon64.com/forum/viewtopic.php?t=70692 a keyboard of a Commodore 64 home
-computer (and similar ones) consist of wired matrix allowing the use of 8 outputs and
+computer (and similar ones) consists of a wired matrix allowing the use of 8 outputs and
 8 inputs. By adding two more inputs the matrix is extended from 80 to a hundred possible
 switches (keys, buttons and digital four-way-sticks) for the full keyboard and two
 Atari compatible joysticks. A second fire button would be possible, personally I'm not
