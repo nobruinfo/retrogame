@@ -16,6 +16,8 @@ switches (keys, buttons and digital four-way-sticks) for the full keyboard and t
 Atari compatible joysticks. A second fire button would be possible, personally I'm not
 using it since the C64 makes no use of it.
 
+![schematics](C64keybonrasp_Schaltplan.png)
+
 # Status
 
 * Currently I'm drawing wiring schemes.
@@ -31,8 +33,8 @@ using it since the C64 makes no use of it.
   
 # To do
 
-* Since this project has its focus on the C64 thus Vice some configs need tweaking and
-  adding to the repository.
+* Since this project has its focus on the C64 and Vice emulator some configs need
+  tweaking and adding to the repository.
 * As mentioned above the timing needs optimising as possible. Considerably Vice does
   delays of keyboard holded keys entirely by itself and joystick inputs need none of
   this. That being said the keyboard should be used in the console and other programmes
