@@ -4,7 +4,7 @@ This is a fork of https://github.com/adafruit/Adafruit-Retrogame by having added
 from https://github.com/dabonetn/C64USBKey/ to allow direct attachment of a **C64 keyboard
 and up to two joysticks** to your Raspberry Pi without the use of another controller.
 
-Work in progress! &bull; I will add some photos soon.
+Work in progress!
 
 # Details
 
@@ -20,7 +20,11 @@ using it since the C64 makes no use of it.
 
 # Status
 
-* Currently I'm drawing wiring schemes.
+* The wiring involves a male-to-male adapter on the side of the C64 keyboard connector.
+  This ensures complete disassembly of this project to resume operation of the original
+  hardware &ndash; if ever needed. In my case this adapter makes pins 1..20 connect
+  all even numbered pins of a standard 40 pin flat cable &ndash; used in the years of
+  IDE hard disk drives.
 * The Adafruit-Retrogame allows proper configuring. My yet trial project ist still hard
   coded. Moving stuff to the .cfg is in the plans.
 * Adafruit's is highly optimised to not load the CPU making use of interrupt triggered
@@ -30,9 +34,13 @@ using it since the C64 makes no use of it.
 * Of course I will also need Adafruit's full consent to use their code in this project.
   However, I could not find any license information over at their site. I will simply
   ask before uploading any releases here.
-  
+
+![wiring](images/20200717_desc.jpg)
+
 # To do
 
+* The driver does not yet provide support for the C64's power LED. This will come as
+  soon as the power handling with some sort of onoff shim is done.
 * Since this project has its focus on the C64 and Vice emulator some configs need
   tweaking and adding to the repository.
 * As mentioned above the timing needs optimising as possible. Considerably Vice does
